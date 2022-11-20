@@ -65,17 +65,7 @@ Here is the schema and explanation of each variable in the files:
 * time (int) - time in hours since start of test. The data begins at time t=0
 * value - (dict of strings) - either an offer id or transaction amount depending on the record
 
-**Note:** If you are using the workspace, you will need to go to the terminal and run the command `conda update pandas` before reading in the files. This is because the version of pandas in the workspace cannot read in the transcript.json file correctly, but the newest version of pandas can. You can access the termnal from the orange icon in the top left of this notebook.  
-
-You can see how to access the terminal and how the install works using the two images below.  First you need to access the terminal:
-
-<img src="pic1.png"/>
-
-Then you will want to run the above command:
-
-<img src="pic2.png"/>
-
-Finally, when you enter back into the notebook (use the jupyter icon again), you should be able to run the below cell without any errors.
+There are 5 parts in my notebook to process the data and find the answer for the question in the beginning.
 
 # 1. Explore and understand the dataset
 # 2. Data Preprocessing
@@ -86,3 +76,17 @@ Finally, when you enter back into the notebook (use the jupyter icon again), you
 I just tried to build 2 models KNN and DecisionTree to predict whether or not a customer will fully complete an offer. The accuracy score of DecisionTree is nearly 76%, better than KNN, just about 62%. However, to improve the result, I think I can try more models and there are still many ways to explore this dataset, which may give me more interesting information.
 
 I still confused about how to choose the right model, and what makes a model generate a better results than the others on a dataset. I will continue to investigate and learn.
+
+# Libraries
+import pandas as pd
+import numpy as np
+import math
+import json
+import seaborn as sns
+from sklearn.tree import DecisionTreeClassifier
+from sklearn.model_selection import train_test_split
+from sklearn.metrics import accuracy_score
+from sklearn.metrics import classification_report
+from sklearn import metrics
+import seaborn as sns
+import matplotlib.pyplot as plt
