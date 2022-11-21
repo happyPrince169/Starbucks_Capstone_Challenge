@@ -1,5 +1,5 @@
 # Starbucks_Capstone_Challenge
-Capstone project for Data Scientist Nanodegree in Udacity
+### Capstone project for Data Scientist Nanodegree in Udacity
 
 This project is my capstone project for Data Scientist Nanodegree in Udacity.
 In this project, I will use a machine learning model to predict whether or not someone will complete an offer based on demographics and offer portfolio.
@@ -51,7 +51,9 @@ import matplotlib.pyplot as plt
 
 
 
-Belov is the overview of the dataset from Udacity:
+
+
+### Below is the overview of the dataset from Udacity:
 
 ### Introduction
 
