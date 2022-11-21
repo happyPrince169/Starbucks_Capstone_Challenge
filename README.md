@@ -1,4 +1,4 @@
-# Starbucks_Capstone_Challenge
+### Starbucks Capstone Challenge
 ### Capstone project for Data Scientist Nanodegree in Udacity
 
 This project is my capstone project for Data Scientist Nanodegree in Udacity.
