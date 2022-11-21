@@ -22,18 +22,32 @@ However, to improve the result, I think I can try more models and there are stil
 I still confused about how to choose the right model, and what makes a model generate a better results than the others on a dataset. I will continue to investigate and learn.
 
 # Libraries I have imported
+
+
 import pandas as pd
+
 import numpy as np
+
 import math
+
 import json
+
 import seaborn as sns
+
 from sklearn.tree import DecisionTreeClassifier
+
 from sklearn.model_selection import train_test_split
+
 from sklearn.metrics import accuracy_score
+
 from sklearn.metrics import classification_report
+
 from sklearn import metrics
+
 import seaborn as sns
+
 import matplotlib.pyplot as plt
+
 
 
 
